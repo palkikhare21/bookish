@@ -1,0 +1,39 @@
+#main{
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    justify-content: space-between;
+}
+#child{
+    
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+#one{
+    color: orangered;
+    padding-left: 10px;
+}
+#two{
+    color: white;
+    padding-left: 10px;
+}
+#three{
+    color: white;
+    padding-left: 10px;
+}
+#four {
+    color: white;
+    padding-left: 10px;
+}
+#five{
+    color: white;
+    padding-left: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

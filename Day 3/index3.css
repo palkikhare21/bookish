@@ -1,0 +1,50 @@
+/* div{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+
+}
+div:nth-of-type(1){
+    background-color: #7A1CAC;
+}
+div:nth-of-type(2){
+    background-color: #AD49E1;
+    /* position: fixed;   if it is fixed then its position is fixed it will not move */
+    /* position: relative; */
+    /* top: 100px;
+    left: 35px; */
+
+/* div:nth-of-type(3){
+    background-color: #EBD3F8;
+    position: relative;
+    
+} */ 
+/* div:nth-of-type(4){
+    background-color: #8C3061;
+    position: absolute;
+   margin: 9px;
+    
+    position: static;
+} */
+ #card{
+    height: 100px ;
+    width: 100px;
+    /* border-radius: ; */
+    position: relative ;
+    margin: 3px;
+ }
+ #parent{
+    position: relative;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+ }
+ #child{
+    height: 100px;
+    position: absolute;
+  border-radius: 50%;
+    margin: 10px;
+
+    
+ }
