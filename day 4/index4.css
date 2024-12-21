@@ -1,6 +1,6 @@
 #main{
-    height: 200px;
-    border:  3px solid #1B1833;
+    height: 100vh;
+    /* border:  3px solid #1B1833; */
     display: flex;
    /* flex-direction: row;
    flex-direction: column;
@@ -10,9 +10,10 @@
    /* justify-content: baseline;
    justify-content: center;
    justify-content: end;
-   justify-content: space-around;
+   /* justify-content: space-around; */
    justify-content: space-between;
-   justify-content: space-evenly; */
+   justify-content: space-evenly; 
+   align-items: center;
 
 }
 #main div{
@@ -28,6 +29,4 @@
 #three{
     background-color: #FF9D3D;    
 }
-#four{
-    background-color: #AB4459;
-}
+

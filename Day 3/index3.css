@@ -26,25 +26,4 @@ div:nth-of-type(2){
     
     position: static;
 } */
- #card{
-    height: 100px ;
-    width: 100px;
-    /* border-radius: ; */
-    position: relative ;
-    margin: 3px;
- }
- #parent{
-    position: relative;
-    background-color: black;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
- }
- #child{
-    height: 100px;
-    position: absolute;
-  border-radius: 50%;
-    margin: 10px;
-
-    
- }
+ 
