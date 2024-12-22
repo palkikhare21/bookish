@@ -1,0 +1,41 @@
+#main{
+    height: 400px;
+    border: solid black;
+    
+}
+#main div{
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+    
+
+}
+#main div:nth-of-type(1){
+    background-color: #180161;
+    transition-timing-function: ease-out;  
+    transition: 3s;
+}
+#main div:nth-of-type(2){
+    background-color: #4F1787; 
+    transition-timing-function: ease-in;
+    
+}
+#main div:nth-of-type(3){
+    background-color: #EB3678; 
+    transition-timing-function: ease-out;
+     
+}
+#main div:nth-of-type(4){
+    background-color: #FB773C; 
+    transition-timing-function: ease-in;
+    
+}
+#main:hover div{
+    margin-left: 625px;
+    border-radius: 50%;
+    width: 90px;
+    /* background-image: url(""); 
+    bg-size */
+
+    /* will remove margin left and change width to the vw to move from the one place only */
+}
