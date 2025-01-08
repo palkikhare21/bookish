@@ -1,0 +1,22 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* background-color: brown; */
+    margin: 48px auto;
+    border: 5px brown;
+    background-size: 30% 30%;
+    background-position: center;
+    background-size: contain;
+    /* background: linear-gradient(red,blue); */
+    /* background: linear-gradient(to right, red,blue); */
+    background: linear-gradient(to bottom right, orange,white ,green);
+    /* background: linear-gradient(at top left, red,blue); */
+    /* background: radial-gradient(circle at top left, red,blue);
+    
+    background: radial-gradient(ellipse orange,green); */
+    
+    /* background-image:url(https://plus.unsplash.com/premium_photo-1734737430733-715180712798?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+} */
+ background: repeating-linear-gradient(to right, red,yellow 10%,green 20%);
+ background: conic-gradient(from 0deg at 50% 50%, red,yellow,blue);
+}

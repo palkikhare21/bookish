@@ -1,0 +1,41 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* background: linear-gradient(red,blue); */
+    /* background-color: rgb(56, 56, 169);
+    background-color: red; */
+    animation-name: palki;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 200px;
+    border: solid black 4px;
+    animation-direction: alternate;
+    transform: rotate(180deg);
+    /* if we are using animation property then we have to use @keyframe to make it work animation-name: palki;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    
+    (imp to give these)*/
+}
+img{
+    border-radius: 50%;
+}
+
+@keyframes palki {
+    0%{
+        /* background-color: red; */
+        
+    }
+    50%{
+        /* background-color: rgb(247, 13, 13); */
+    }
+
+    100%{
+        /* background-color: blue; */
+        transform: translateY(570px);
+    }
+    
+ 
+}
