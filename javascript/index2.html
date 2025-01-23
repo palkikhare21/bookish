@@ -150,54 +150,78 @@
 //CALL BACK FDUNCTION SSSSSSSSSSSSSSSSSSSSSSS
 
 
-function callBack(a)
-{
-    console.log('helllooooo');
-    setTimeout(() => {
-        a()
+// function callBack(a)
+// {
+//     console.log('helllooooo');
+//     setTimeout(() => {
+//         a()
         
-    })
+//     })
     
-}
+// }
 
 
-function step1(fn){
-    setTimeout(() => {
-        console.log('selectttttttttttttt');
-        fn()
+// function step1(fn){
+//     setTimeout(() => {
+//         console.log('selectttttttttttttt');
+//         fn()
         
-    },5000)
-}
-function step2(fn){
-    setTimeout(() => {
-        console.log('filtreeeeeeeeeee');
-        fn()
+//     },5000)
+// }
+// function step2(fn){
+//     setTimeout(() => {
+//         console.log('filtreeeeeeeeeee');
+//         fn()
         
-    },4000)
-}
+//     },4000)
+// }
 
-function step3(fn){
-    setTimeout(() => {
-        console.log('captionnnnn');
-        fn()
+// function step3(fn){
+//     setTimeout(() => {
+//         console.log('captionnnnn');
+//         fn()
         
-    },3000)
-}
-function step4(fn){
-    setTimeout(() => {
-        console.log('postttttttttttttt');
-        fn()
+//     },3000)
+// }
+// function step4(fn){
+//     setTimeout(() => {
+//         console.log('postttttttttttttt');
+//         fn()
         
-    },2000)
-}
+//     },2000)
+// }
 
-//CALL BACKK HELLLL
+// //CALL BACKK HELLLL
 
-step1(function () {
-    step2(function() {
-        step3()
-    })
+// step1(function () {
+//     step2(function() {
+//         step3()
+//     })
+// })
+
+// let promise= new Promise((res,rej)=>{
+//     let a=false
+//     if(a){
+//         res()
+//     }
+//     else{
+//         rej()
+//     }
+    
+// })
+// console.log(promise,'hehehehehehehe');
+
+let p= new Promise((res,rej)=>{
+    rej()
 })
+p.then(()=>{
+    console.log('hellooo');
+    
+}).catch(()=>{
+    console.log('hoiiiiii');
+    
+})
+
     </script>
 </body>
 </html>
