@@ -1,0 +1,87 @@
+.card{
+    height: 700px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 10%;
+    /* justify-content: center; */
+    margin-left: 29%;
+    margin-top: 4%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+body{
+    background: linear-gradient(#C4D9FF,#FFB0B0); 
+}
+#heads{
+    display: flexbox;
+    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: gray; */
+    height: 50px;
+    padding-left: 10%;
+}
+    
+
+:nth-of-type(1){
+     
+    color: black;
+    margin-left: 4%;
+}
+:nth-of-type(2){
+    color: black;
+    margin-left: 4%;
+}
+:nth-of-type(3){
+    color: black;
+    margin-left: 4%;
+}
+:nth-of-type(4){
+    color: black;
+    margin-left: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:nth-of-type(5){
+    color: black;
+    margin-left: 4%;
+}
+:nth-of-type(6){
+    color: black;
+    margin-left: 4%;
+}
+:nth-of-type(7){
+    color: black;
+    margin-left: 4%;
+}
+h1{
+    align-items: center;
+    padding-left: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    align-items: center;
+    /* padding-left: 30%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#life{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-title{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-date{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-para{
+    margin-left: 35%;
+}
+.card-img-top{
+    width: 100px;
+}
+
+

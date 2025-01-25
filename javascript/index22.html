@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    //fetch is a function in js used send request ==will return a promise
+    //promise is created in very rear cases it is used to rej and res
+
+    let apilink="https://dummyjson.com/recipes"
+    let data= fetch(apilink)
+    //console.log(data,'kyayayayyayay');
+    data.then((res)=>{
+       // console.log(res,'ghfghfhdsqdwdx');
+        return res.json()
+        
+    }).then((d)=>{
+       // console.log(d.recipes[0].name,'kysghvdcbhjcd');
+        
+        let filterData= d.recipes.filter((apiData)=>{
+           // console.log(apiData);
+            
+            return apiData.cuisine=='Indian'
+        })
+        console.log(filterData,'ghqdwdhjhde');
+        
+    })
+
+    // let arr=[{
+    //     id:1,
+    //     name:"a"
+    // },{id:2,name:'b'}
+    // ]
+
+
+</script>
+<body>
+    
+</body>
+</html>
