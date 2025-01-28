@@ -38,18 +38,31 @@
 // })
 let btn = document.querySelector('button')
 let body = document.querySelector('body')
-let count=0 
-btn.addEventListener('click',()=>{
-     console.log('jaooooo');
-     if(count%2==0){
-        body.style.backgroundColor='red';
-        count++
-     }
+// let count=0 
+// btn.addEventListener('click',()=>{
+//      console.log('jaooooo');
+//      if(count%2==0){
+//         body.style.backgroundColor='red';
+//         count++
+//      }
      
-    else{
-        body.style.backgroundColor='blue';
-        count++
+//     else{
+//         body.style.backgroundColor='blue';
+//         count++
+//     }
+    
+    
+//  })
+let isBool=false
+ btn.addEventListener('click',()=>{
+    
+    if(isBool){
+        body.style.backgroundColor='pink'
+        isBool=false
     }
-    
-    
- })
+    else{
+        body.style.backgroundColor='blue'
+        isBool=true
+    }
+
+})
