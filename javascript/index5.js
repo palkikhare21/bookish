@@ -13,10 +13,10 @@
 // let btn1= document.querySelector('#two')
 // let body= document.querySelector('body')
 // btn.addEventListener('click',()=>{
-    // console.log('jaooooo');
-    // body.style.backgroundColor='red'
-    // alert('HEYY')
-    // h1.innerText='palki'
+//     console.log('jaooooo');
+//     body.style.backgroundColor='red'
+//     alert('HEYY')
+//     h1.innerText='palki'
     
     
 // })
@@ -36,8 +36,8 @@
   
     
 // })
-let btn = document.querySelector('button')
-let body = document.querySelector('body')
+// let btn = document.querySelector('button')
+// let body = document.querySelector('body')
 // let count=0 
 // btn.addEventListener('click',()=>{
 //      console.log('jaooooo');
@@ -53,16 +53,26 @@ let body = document.querySelector('body')
     
     
 //  })
-let isBool=false
- btn.addEventListener('click',()=>{
+// let isBool=false
+//  btn.addEventListener('click',()=>{
     
-    if(isBool){
-        body.style.backgroundColor='pink'
-        isBool=false
-    }
-    else{
-        body.style.backgroundColor='blue'
-        isBool=true
-    }
+//     if(isBool){
+//         body.style.backgroundColor='pink'
+//         isBool=false
+//     }
+//     else{
+//         body.style.backgroundColor='blue'
+//         isBool=true
+//     }
 
-})
+// })
+
+// let form= document.querySelector('form')
+
+// form.addEventListener('submit',(e)=>{
+//     e.preventDeafult()
+//     console.log(form[0].value,"hehehe");
+//     console.log(form[1].value,"hehehe");
+
+    
+// })
