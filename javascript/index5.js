@@ -11,7 +11,7 @@
 // }
 
 // let btn1= document.querySelector('#two')
-// let body= document.querySelector('body')
+// let body= document.querySelector('body')c
 // btn.addEventListener('click',()=>{
 //     console.log('jaooooo');
 //     body.style.backgroundColor='red'
