@@ -21,7 +21,7 @@ form.addEventListener('submit',(e)=>{
     console.log(JSON.parse(userData),"useresss");
     
 })
- let logIn= document.querySelector('#one')
+ let logInForm= document.querySelector('#one')
 
  logInForm.addEventListener('sunmit',(e)=>{
     e.preventDefault()
@@ -29,7 +29,7 @@ form.addEventListener('submit',(e)=>{
     let parseData=JSON.parse(userData)
     console.log(logInForm[0].value,);
     
-    if(logInForm[0].value==parseData.email && logInForm2[1].password==parseData.password){
+    if(logInForm[0].value==parseData.email && logInForm[1].password==parseData.password){
         alert('sab theek hai')
     }
     else{
@@ -62,15 +62,15 @@ form.addEventListener('submit',(e)=>{
 
 
 
-//   let LoginForm2=    document.querySelector('#one')
+//   let LoginForm=    document.querySelector('#one')
 
-//   LoginForm2.addEventListener('submit',(e)=>{
+//   LoginForm.addEventListener('submit',(e)=>{
 //     e.preventDefault()
 //       let userData=  localStorage.getItem('user')
 //       let parsData=JSON.parse(userData)
-//       console.log(LoginForm2[0].value,);
+//       console.log(LoginForm[0].value,);
       
-//        if(LoginForm2[0].value==parsData.email && LoginForm2[1].value==parsData.passWord){
+//        if(LoginForm[0].value==parsData.email && LoginForm[1].value==parsData.passWord){
 //         alert('sab kuch theek hai ')
 //        }
 //        else{
