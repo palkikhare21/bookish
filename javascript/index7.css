@@ -1,0 +1,51 @@
+body{
+    background: #FBFBFB;
+}
+button{
+    width: 60px;
+    margin-top: 10%;
+    border-radius: 50%;
+    height: 50px;
+}
+#num{
+   
+    display: flex;
+   
+    /* justify-content: space-around;
+    justify-content: space-between; */
+    
+    
+}
+#head{
+    
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+#num2{
+   
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+#num3{
+   
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+fieldset{
+    background-color: black;
+}
+#head2{
+    /* height: 50px; */
+    background-color: ;
+}
+#main{
+    margin-top: 10%;
+}
+input{
+    height: 50px;
+    width: 250px;
+}
